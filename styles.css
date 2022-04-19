@@ -69,6 +69,11 @@ a {
     padding: 40px;
 }
 
+.info-panel {
+    padding: 25px;
+}
+
+
 .info-title {
     font-size: 36px;
     font-weight: bolder;
@@ -78,15 +83,61 @@ a {
 
 .info-content {
     display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+    padding: 25px;
 }
 
 .img-temp {
-    border-radius: 25px;
+    border-radius: 20px;
     border: 3px solid #3882F6;
     height: 100px;
     width: 100px;
+    text-align: center;
+}
+
+.img-text {
+    font-size: 18px;
+    width: 100px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 80px 160px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-att {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: right;
+}
+
+.call {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 80px 120px;
+    padding: 40px 65px;
+    display: flex;
+}
+
+.call-main {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call-secondary {
+    font-size: 18px;
 }
 
 .footer {
     text-align: center;
+    padding: 40px 0;
 }
