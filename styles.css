@@ -24,6 +24,14 @@ a {
     color: #E5E7EB;
 }
 
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    padding: 6px 28px;
+    border-radius: 8px;
+}
+
 .header, .footer{
     background-color: #1F2937;
     color: #F9FAF8;
@@ -32,7 +40,7 @@ a {
 .header-top {
     display: flex;
     justify-content: space-between;
-    padding: 10px 120px;
+    padding: 10px 200px;
 }
 
 .logo {
@@ -43,7 +51,7 @@ a {
 
 .hero {
     display: flex;
-    padding: 60px 120px;
+    padding: 100px 200px;
 }
 
 .hero-content {
@@ -61,12 +69,20 @@ a {
     color: #E5E7EB;
 }
 
+.hero-button {
+    font-size: 18px;
+    margin: 8px 0;
+}
+
 .hero-img {
     background-color: darkgrey;
     font-size: 14px;
     font-weight: bold;
-    text-align: center;
     padding: 40px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .info-panel {
@@ -85,26 +101,32 @@ a {
     display: flex;
     justify-content: center;
     text-align: center;
-    gap: 40px;
-    padding: 25px;
+    gap: 60px;
+    padding: 35px;
 }
 
+.info-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .img-temp {
     border-radius: 20px;
     border: 3px solid #3882F6;
-    height: 100px;
-    width: 100px;
+    height: 165px;
+    width: 165px;
     text-align: center;
 }
 
 .img-text {
     font-size: 18px;
-    width: 100px;
+    width: 165px;
+    margin-top: 6px;
 }
 
 .quote {
     background-color: #E5E7EB;
-    padding: 80px 160px;
+    padding: 100px 250px;
 }
 
 .quote-text {
@@ -123,18 +145,32 @@ a {
 .call {
     background-color: #3882F6;
     color: #F9FAF8;
-    margin: 80px 120px;
-    padding: 40px 65px;
+    margin: 100px 200px;
+    padding: 50px 120px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .call-main {
     font-size: 24px;
     font-weight: bold;
+    margin-bottom: 5px;
 }
 
 .call-secondary {
     font-size: 18px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-button {
+    font-size: 18px;
+    border: 2px solid #F9FAF8;
 }
 
 .footer {
